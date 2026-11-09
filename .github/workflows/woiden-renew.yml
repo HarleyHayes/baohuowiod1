@@ -62,7 +62,7 @@ jobs:
       SOCKS_PORT: ${{ secrets.SOCKS_PORT || '10808' }}
 
       # ── 路径 ────────────────────────────────────────────────────────
-      PRIVATE_REPO: harleyhayes/auto_woiden_private
+      PRIVATE_REPO: jyucoeng/auto_woiden_private
       PROJECT_DIR: woiden
       SCRIPT_NAME: woiden-renew.py
       SCREENSHOT_DIR: screenshots
